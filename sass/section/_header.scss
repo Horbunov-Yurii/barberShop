@@ -7,14 +7,25 @@
   &__wrap {
     display: flex;
     justify-content: space-between;
+    
+
+    @media screen and  (min-width: 1200px){
+        align-items: center;
+     }
   }
 
   // background-color: gray;
 
   &__nav {
     display: none;
+
     @media screen and (min-width: 720px) {
       display: block;
+      margin-top: 12px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      margin-top: 0;
     }
   }
 
