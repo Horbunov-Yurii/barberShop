@@ -55,8 +55,11 @@ font-size: 18px;
 font-weight: 400;
 line-height: 1.6;
 letter-spacing: 0.36px;
-width: 418px;
+width: 100%;
 margin-bottom: 44px;
+@media screen and (min-width:448px) {
+        width: 418px;
+    }
 
 @media screen and (min-width: 720px){
         width: 500px;

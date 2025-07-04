@@ -119,7 +119,6 @@
     }
 
     &__explanation {
-        width: 336px;
         color: #9DA4BD;
         font-family: "Open Sans";
         font-size: 16px;
@@ -127,6 +126,9 @@
         font-weight: 400;
         line-height: 26px;
         letter-spacing: 0.32px;
+        width: 100%;
+                @media screen and (min-width:448px) {
+                    width: 336px;                }
 
     @media screen and (min-width: 720px) {
         width: 360px;
@@ -156,6 +158,10 @@
     }
 
     &__div{
+        width: 100%;
+        @media screen and (min-width:448px) {
+                width: 336px;
+              }
 
         @media screen and (min-width: 720px) {
             margin-left: 240px;
